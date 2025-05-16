@@ -14,9 +14,8 @@ public class Main {
         RuleUnitInstance<LipidScoreUnit> instance = RuleUnitProvider.get().createRuleUnitInstance(lipidScoreUnit);
 
         try {
-            // TODO INTRODUCE THE CODE IF DESIRED TO INSERT FACTS AND TRIGGER RULES
             instance.fire();
-            // TODO INTRODUCE THE QUERIES IF DESIRED
+
 
 
         } finally {

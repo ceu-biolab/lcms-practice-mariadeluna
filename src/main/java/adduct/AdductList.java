@@ -9,6 +9,7 @@ public class AdductList {
     public static final Map<String, Double> MAPMZPOSITIVEADDUCTS;
     public static final Map<String, Double> MAPMZNEGATIVEADDUCTS;
 
+
     static {
         Map<String, Double> mapMZPositiveAdductsTMP = new LinkedHashMap<>();
         mapMZPositiveAdductsTMP.put("[M+H]+", -1.007276d);
